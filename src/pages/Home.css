@@ -1,0 +1,25 @@
+.home‐container {
+  background: linear-gradient(135deg, #232526 0%, #1e90ff 100%);
+  min-height: 100vh;
+  padding: 2rem;
+  color: #fff;
+}
+
+.home‐heading {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  background: linear-gradient(90deg, #63b3ed 30%, #1e90ff 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.home‐grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.home‐grid > * {
+  margin: 0 auto;
+}
